@@ -1,0 +1,3 @@
+# kortnismith.github.io
+
+# First git repo created.  Not sure if this has to be for the site...
