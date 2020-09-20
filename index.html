@@ -1,9 +1,35 @@
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178477722-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-178477722-1');
+	</script>
 	<title>kortni.ca</title>
 	<style>
+		img
+		{
+		box-shadow: 0px 0px 15px #fff;
+		}
+		.credit {
+			font-size: 8px;
+		}
+		.caligraphy-cursive {
+			font-family: cursive;
+			font-size: 24px;
+		}
+		p {
+			line-height: 20px;
+			padding-bottom: 14px;
+		}
 		body {
 		 font-family: Arial ;
+		 background-image: url("./images/sky-bg.jpg");
+		 background-size: contain;
 		}
 		/* unvisited link */
 		a:link {
@@ -24,6 +50,14 @@
 		a:active {
 		  color: #FF1493;
 		}
+
+		.bottom-crop {
+			 max-height: 180px;
+			 overflow: hidden;
+		 }
+		.bottom-crop img {
+			/* corrects inline gap in enclosing div */
+			display: block; }
 	</style>
 </head>
 <body>
@@ -33,17 +67,20 @@
 		<br>
 	<h1>WELCOME TO KORTNI.CA</h1>
 	<p>This site is growing behind the scenes and will be with you shortly!</p>
-	<br>
-	<p>
+	<p class="caligraphy-cursive">
 		Until then...
 	</p>
-	<br>
-	<br>
 	<p>
 		Our Golden Retriever <a href="https://www.instagram.com/goldenphoenixpup" target="_blank">Phoenix says hi!</a>
+		<div class="bottom-crop">
+			<a href="./images/Phoenix.jpeg" target="_blank"><img src="./images/Phoenix.jpeg" width="20%"></a>
+		</div>
 	</p>
 	<p>
 		Have a <a href="https://www.youtube.com/watch?v=Qvqrt41XP0g" target="_blank">laugh</a> on me and burn some calories sitting down :]
+		<div class="bottom-crop">
+			<a href="./images/Kortni.png" target="_blank"><img src="./images/Kortni.png" width="20%"></a>
+		</div>
 	</p>
 	<br>
 	<br>
@@ -61,10 +98,11 @@
 	</p>
 	<p>
 		Be thankful for what you have; you’ll end up having more.<br>
-		 If you concentrate on what you don’t have, you will never, ever have enough.<br>
+		 If you concentrate on what you don’t have, you will never have enough.<br>
 		Oprah Winfrey
 	</p>
 </i>
+<a class="credit" href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
 </center>
 </body>
 </html>
