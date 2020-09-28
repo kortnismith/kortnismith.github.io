@@ -1,3 +1,3 @@
 # kortnismith.github.io
 
-# First git repo created.  Not sure if this has to be for the site...
+# First git repo created.  Currently in use as index file for temp under construction site.
